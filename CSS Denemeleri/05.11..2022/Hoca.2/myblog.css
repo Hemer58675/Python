@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(151, 110, 110);
+}
+.container{
+
+    background-color: rgb(247, 172, 224);
+    width: 80%;
+    height: 1000px;
+    padding: 40px;
+    /* height: 500px; */
+    margin: auto;
+    /* text-align: center; */
+}
+.header{
+    /* height: 0px; */
+    /* background-color: yellow; */
+}
+.headertitle{
+    padding: 20px;
+    background-color: burlywood;
+    float: left;
+    width: 50%;
+}
+.headermenu{
+    background-color: rgb(255, 230, 68);
+    float: right;
+    padding: 20px;
+    width: 30%;
+    
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    background-color: azure;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+li{
+    float: right;
+}
+.liv >li{
+    float: none;
+}
+.articles{
+    background-color: green;
+    height:400px;
+    width: 60%;
+    float: left;
+    padding: 20px;
+
+}
+article{
+    padding-bottom: 0px;
+}
+.links {
+    background-color: brown;
+    height: 440px;
+    text-align: center;
+    /* float: left;   */
+}
+
+#copy{
+    text-align: center; 
+    padding:5px;
+    background-color: blue;
+}

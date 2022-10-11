@@ -1,0 +1,71 @@
+body{
+    background: #243010;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+#hdr{
+    min-height: 220px;
+    padding-top: 3em;
+    padding-right: 2,5em;
+    padding-left: 2,5em;
+}
+.dest{
+    background-color: #2A3C24;
+}
+.backend{
+    height: 100%;
+}
+h2,h3,p{
+    margin: 0;
+}
+img{
+width: 100%;
+}
+.dest{
+    width: 40%;
+    display: inline-block;
+    height: 100%;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    background-origin: 1px solid #87A330;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.btn:hover{
+    background-color: #A1C349;
+}
+.hdr-bg{
+    background: url(www.google.com);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 260px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+    margin: 0;
+}footer{
+    min-height: 50px;
+    background-color: #CAD593;
+    color: black;
+    line-height: 50px;
+}
+h2,h3{
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+.prices{
+    background-color: #87A330;
+    min-height: 100px;
+}section{
+    padding-bottom: 1,5em;
+}
+.destinations{
+    padding-bottom: 1em;
+}

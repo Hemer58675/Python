@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    
+}
+body{
+    background-color: rgb(177, 177, 178);
+
+}
+.container{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(106, 106, 170);
+}
+.info{
+    text-align: justify;
+    color: white;
+    padding: 20px;
+}
+h1{
+    letter-spacing: 10px;
+}
+h2{
+    margin-left: 20px;
+}
+
+ul{
+    color: white;
+}
+
+.header{
+    text-align: center;
+}
+span{
+    color: rgb(152, 57, 57);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(182, 156, 156);
+}
+.footer{
+    text-align: right;
+    padding: 20px;
+}
+.wikilink{
+    text-decoration: none;
+    color: blue;
+    border: 1px solid chocolate;
+    padding: 10px;
+    border-radius: 5px;
+
+
+}
+.wikilink:hover{
+    font-style: italic;
+    background-color: rgb(164, 98, 98);
+}

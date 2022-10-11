@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Uygulamalari</title>
+    <style>
+        p{
+        color: blue;
+        }
+        #extra{
+        color: pink;}
+        .classstyle{
+        color: red;
+        }
+        #extra1{
+            color: bisque;
+        }
+        .idclass{
+            color:black;
+            border-style: dotted;
+            border-width: 12px 20px 35px 50px;
+        }
+        div{
+            margin-left: 100px;
+            width: 400px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div><h1>Style uygulamasi</h1>
+        <p style="color: green;">burasi bir inline style sahip</p>
+        <p >burasi internal style sahip</p>
+        <p style="color: orange;">burasi externel style sahip ama internel engelliyor</p>
+        <p id="extra">burasi id ye sahip bu yüzden id ile verilen style gecerlidir</p>
+        <p class="classstyle">burasi clas ile sekillendirildi</p>
+        <p id="extra1" class="idclass">burasi hem id hemde class ile sekillendirildi</p>
+    </div>        
+</body>
+</html>

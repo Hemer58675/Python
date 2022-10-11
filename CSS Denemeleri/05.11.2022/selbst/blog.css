@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+.container{
+    margin: auto;
+    /* text-align: center; */
+    background-color:beige;
+    width: 80%;
+    
+}
+
+header{
+    padding: 20px;
+    background-color: aquamarine;
+    height: 120px;
+    
+    
+}
+h1{
+    float: left;
+    background-color: red;
+    height: 100px;
+}
+h2{
+    float: right;
+    background-color: rgb(255, 145, 0);
+    height: 100px;
+}
+img{
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+li{
+    list-style-type: none;
+    float: right;
+}
+.artikels{
+    height: 300px;
+    width: 70%;
+    height: 700;
+    background-color: blue;
+}
+.links{
+    float: right;
+    width: 30%px;
+    background-color: blueviolet;
+    float: right;
+}
