@@ -2,5 +2,6 @@
     "livePreview.defaultPreviewPath": "c:\\Users\\lyild\\Desktop\\Phython\\first.html",
     "editor.language.brackets": [
     
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }
