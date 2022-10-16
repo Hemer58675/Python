@@ -1,182 +1,235 @@
-<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/lyild/Desktop/Phython/SQL 1/salesDE/salesDE.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure pragmas query browser" current="2"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1500"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,5:mainsales"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="sales" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="97"/><column index="2" value="73"/><column index="3" value="51"/><column index="4" value="67"/><column index="6" value="73"/><column index="7" value="73"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sqlb_project&gt;&lt;db path=&quot;C:/Users/lyild/Desktop/Phython/SQL 1/chinook/chinook.db&quot; readonly=&quot;0&quot; foreign_keys=&quot;1&quot; case_sensitive_like=&quot;0&quot; temp_store=&quot;0&quot; wal_autocheckpoint=&quot;1000&quot; synchronous=&quot;2&quot;/&gt;&lt;attached/&gt;&lt;window&gt;&lt;main_tabs open=&quot;structure browser query pragmas&quot; current=&quot;2&quot;/&gt;&lt;/window&gt;&lt;tab_structure&gt;&lt;column_width id=&quot;0&quot; width=&quot;300&quot;/&gt;&lt;column_width id=&quot;1&quot; width=&quot;0&quot;/&gt;&lt;column_width id=&quot;2&quot; width=&quot;100&quot;/&gt;&lt;column_width id=&quot;3&quot; width=&quot;3862&quot;/&gt;&lt;column_width id=&quot;4&quot; width=&quot;0&quot;/&gt;&lt;expanded_item id=&quot;0&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;1&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;2&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;3&quot; parent=&quot;1&quot;/&gt;&lt;/tab_structure&gt;&lt;tab_browse&gt;&lt;current_table name=&quot;4,6:mainalbums&quot;/&gt;&lt;default_encoding codec=&quot;&quot;/&gt;&lt;browse_table_settings&gt;&lt;table schema=&quot;main&quot; name=&quot;albums&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;61&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;300&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;59&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;artists&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;59&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;300&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;customers&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;71&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;294&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;264&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;132&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;44&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;96&quot;/&gt;&lt;column index=&quot;9&quot; value=&quot;80&quot;/&gt;&lt;column index=&quot;10&quot; value=&quot;128&quot;/&gt;&lt;column index=&quot;11&quot; value=&quot;122&quot;/&gt;&lt;column index=&quot;12&quot; value=&quot;183&quot;/&gt;&lt;column index=&quot;13&quot; value=&quot;98&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;employees&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;82&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;71&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;71&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;124&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;75&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;129&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;129&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;178&quot;/&gt;&lt;column index=&quot;9&quot; value=&quot;67&quot;/&gt;&lt;column index=&quot;10&quot; value=&quot;44&quot;/&gt;&lt;column index=&quot;11&quot; value=&quot;60&quot;/&gt;&lt;column index=&quot;12&quot; value=&quot;80&quot;/&gt;&lt;column index=&quot;13&quot; value=&quot;115&quot;/&gt;&lt;column index=&quot;14&quot; value=&quot;115&quot;/&gt;&lt;column index=&quot;15&quot; value=&quot;168&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;invoices&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort&gt;&lt;column index=&quot;7&quot; mode=&quot;0&quot;/&gt;&lt;/sort&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;68&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;129&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;264&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;132&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;40&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;96&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;116&quot;/&gt;&lt;column index=&quot;9&quot; value=&quot;40&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;media_types&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;90&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;164&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;playlists&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;67&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;155&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;tracks&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort&gt;&lt;column index=&quot;7&quot; mode=&quot;1&quot;/&gt;&lt;/sort&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;56&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;300&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;61&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;90&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;59&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;300&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;84&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;63&quot;/&gt;&lt;column index=&quot;9&quot; value=&quot;65&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;/browse_table_settings&gt;&lt;/tab_browse&gt;&lt;tab_sql&gt;&lt;sql name=&quot;SQL 1&quot;&gt;/*bir tablodan bir alan getirmek*/
-SELECT Title FROM albums;
-/* emploxe tablosoundan ad ve soyad alanlarini getir*/
-SELECT LastName, FirstName FROM employees;
-/*employes tablosundaki tüm elemanlari getir*/
-SELECT * FROM employees;
-/*tracks tablosundan name ve Composer verilerini cek*/
-SELECT name,Composer 
-FROM tracks;
-/*albums tablosundaki tüm verileri getir*/
-SELECT *
-FROM albums;
-/**/
-SELECT DISTINCT name,Composer
-FROM tracks;
-
-SELECT DISTINCT City FROM customers;
-SELECT DISTINCT AlbumId,MediaTypeId from tracks;
-
-SELECT *
-FROM  tracks WHERE Composer = &amp;quot;Jimi Hendrix&amp;quot; LIMIT 3;
-
-SELECT *
-FROM invoices
-WHERE total&amp;gt;10
-ORDER BY total DESC;
-
-SELECT *
-FROM invoices
-WHERE NOT BillingCountry= &amp;quot;USA&amp;quot;
-ORDER BY total DESC;
-
-SELECT FirstName,LastName,Country
-FROM customers
-WHERE Country 
-in (&amp;quot;Belgium&amp;quot;, &amp;quot;Norway&amp;quot;, &amp;quot;Canada&amp;quot;, &amp;quot;USA&amp;quot;);
-
-SELECT FirstName,LastName,Country
-FROM customers
-WHERE Country =&amp;quot;Belgium&amp;quot; or Country = &amp;quot;Norway&amp;quot; or Country = &amp;quot;Canada&amp;quot; or Country = &amp;quot;USA&amp;quot;;
-
- 
-SELECT name
-FROM Tracks
-WHERE Composer like &amp;quot;%D%&amp;quot;;
-
-SELECT count (name) as &amp;quot;sayi&amp;quot;
-FROM tracks;
-
-SELECT COUNT (Composer) as say_bakalim /*NULL degerler dahil degil*/
-FROM tracks;
-
-SELECT count (State) as &amp;quot;BOS yapmaaaa&amp;quot;
-FROM customers;
-
-SELECT count (*) as &amp;quot;BOS yapmaaaa&amp;quot;
-FROM customers;
-
-SELECT count ()&amp;quot;Toplam&amp;quot;,count (state) as &amp;quot;BOS yapmaaaa&amp;quot;
-FROM customers;
-
-SELECT count (*) as &amp;quot;BOS yapmaaaa&amp;quot;
-FROM invoices;
-
-SELECT count (DISTINCT Composer) as &amp;quot;BOS yapmadann&amp;quot;
-FROM tracks;
-
-SELECT name, max(Milliseconds) as &amp;quot;BOS yapmadann&amp;quot;
-FROM tracks;
-
-SELECT name, avg(Milliseconds) as &amp;quot;Parca ortalama uzunlu&amp;quot;
-FROM tracks;
-
-SELECT name, avg(Milliseconds)
-FROM tracks;
-
-SELECT *
-FROM tracks
-WHERE Milliseconds &amp;gt;(SELECT avg(Milliseconds)FROM tracks)
-LIMIT 5;
-
-SELECT Composer, count(name) as parca_sayisi
-FROM tracks
-GROUP BY Composer;
-
-
-
-
-
-&lt;/sql&gt;&lt;sql name=&quot;SQL 3&quot;&gt;/*bir tablodan bir alanı getirmek*/
-SELECT Title FROM albums;
-/*employee tablosundan adve syoad alanlarını getir */
-SELECT LastName,FirstName FROM employees;
-/*employees tablosundaki tüm verileri getir*/
-SELECT * from employees;
-/*tracks tablosundan name ve composer alanlarını getir*/
-SELECT name,Composer 
-FROM tracks;
-/*tracks tablosundan name ve composer alanlarını tekrar etmeyecek şekilde getir*/
-SELECT  DISTINCT Composer 
-FROM tracks;
-SELECT  DISTINCT Country,City 
-FROM customers;
-SELECT DISTINCT AlbumId,MediaTypeId FROM tracks;
-/*tracks albumunde composer ı jimi hendrix olanları getir*/
-SELECT * from tracks WHERE Composer ='Jimi Hendrix' limit 3;
-/*toplam tutarı 10 $ dan fazla olan faturalardan 4 tanesini getir*/
-SELECT * 
-FROM invoices 
-WHERE total&amp;gt;10;
-/*toplam tutarı 10$dan fazla olan faturların bilgilerini getir. Toplam miktara göre azalan sırada getir*/
-SELECT * FROM invoices WHERE total&amp;gt;10 ORDER by total DESC;
-/*Ülkesi ABD olmayan faturaların bilgilerini getir. total e göre artan düzende sırala*/
-SELECT * FROM invoices WHERE NOT BillingCountry='USA' ORDER by total;
-/*fatura tarihi 2009 ile 2011 arasında olaları getir  */
-SELECT * FROM invoices WHERE InvoiceDate BETWEEN '2009-01-01' AND '2011-12-31 00:00:00' ORDER by InvoiceDate DESC; 
-/*aynı soru between yerine and ile*/
-SELECT * FROM invoices WHERE InvoiceDate&amp;gt;='2009-01-01' AND InvoiceDate&amp;lt;='2011-12-31'; 
-/*Belçika, Norveç, Kanada ve ABD'den sipariş veren müşterilerin adını ve soyadını getirin*/
-SELECT Country,FirstName,LastName 
-FROM customers
-WHERE Country IN ('Belgium','Norway','Canada','USA') ORDER by Country; 
-SELECT Country,FirstName,LastName 
-FROM customers
-WHERE Country ='Belgium' or Country ='Norway'or Country ='Canada' or Country ='USA' ORDER by Country;
-
-/*aggrigation functions*/
-/* tracks tablosunda kaç kayıt var */
-SELECT count(*) from tracks;
-/*null değerler dahil*/
-SELECT count(Composer) as toplam_besteci_sayisi from tracks; 
-/*null değerler dahil DEGİL*/
-SELECT count(State) from customers where state NOTNULL;
-SELECT count(Company) from customers;
-SELECT count(*) as toplam_sayi,count(state) as toplam_state_sayisi from customers;
- 
-/**/
-SELECT COUNT(*) FROM invoices;
-/*mağazada kaç farklı besteci var*/
-SELECT count(DISTINCT Composer) from tracks;
-/*maksimum süreye sahip parça*/
-SELECT max(Milliseconds)as en_uzun_parca from tracks;
-/*maksimum süreye sahip parça*/
-SELECT avg(Milliseconds) as parcaların_ort_suresi from tracks;
-/*faturaların toplam tutarı*/
-SELECT sum(total) as toplam_miktar, avg(total) as ortalama_fatura, min(total) as en_dusuk, max(total) as en_yuksek 
-from invoices;
-
-SELECT avg(Milliseconds) as parcaların_ort_suresi from tracks;
-select * from tracks WHERE Milliseconds&amp;gt;393599.212103911;
-/*asıl yol*/
-SELECT count(*) from tracks 
-WHERE Milliseconds&amp;gt;(SELECT avg(Milliseconds) as parcaların_ort_suresi from tracks);
-/*her bestecinin toplam parca sayısı. name ve composer sütünlarını getir*/
-SELECT Composer,count(*) as par_sayisi from tracks GROUP by Composer order by par_sayisi DESC; &lt;/sql&gt;&lt;current_tab id=&quot;0&quot;/&gt;&lt;/tab_sql&gt;&lt;/sqlb_project&gt;
-</sql><sql name="SQL 3">SELECT name, count(name) as adet_satis
-FROM sales
-GROUP BY name
-ORDER BY adet_satis DESC ;
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/lyild/Desktop/Phython/SQL 1/salesDE/salesDE.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure pragmas query browser" current="2"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1500"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,5:mainsales"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="sales" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="97"/><column index="2" value="73"/><column index="3" value="51"/><column index="4" value="67"/><column index="6" value="73"/><column index="7" value="73"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sqlb_project&gt;&lt;db path=&quot;C:/Users/lyild/Desktop/Phython/SQL 1/chinook/chinook.db&quot; readonly=&quot;0&quot; foreign_keys=&quot;1&quot; case_sensitive_like=&quot;0&quot; temp_store=&quot;0&quot; wal_autocheckpoint=&quot;1000&quot; synchronous=&quot;2&quot;/&gt;&lt;attached/&gt;&lt;window&gt;&lt;main_tabs open=&quot;structure browser query pragmas&quot; current=&quot;2&quot;/&gt;&lt;/window&gt;&lt;tab_structure&gt;&lt;column_width id=&quot;0&quot; width=&quot;300&quot;/&gt;&lt;column_width id=&quot;1&quot; width=&quot;0&quot;/&gt;&lt;column_width id=&quot;2&quot; width=&quot;100&quot;/&gt;&lt;column_width id=&quot;3&quot; width=&quot;3862&quot;/&gt;&lt;column_width id=&quot;4&quot; width=&quot;0&quot;/&gt;&lt;expanded_item id=&quot;0&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;1&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;2&quot; parent=&quot;1&quot;/&gt;&lt;expanded_item id=&quot;3&quot; parent=&quot;1&quot;/&gt;&lt;/tab_structure&gt;&lt;tab_browse&gt;&lt;current_table name=&quot;4,6:mainalbums&quot;/&gt;&lt;default_encoding codec=&quot;&quot;/&gt;&lt;browse_table_settings&gt;&lt;table schema=&quot;main&quot; name=&quot;albums&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;61&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;300&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;59&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;artists&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;59&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;300&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;customers&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;71&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;294&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;264&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;132&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;44&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;96&quot;/&gt;&lt;column index=&quot;9&quot; value=&quot;80&quot;/&gt;&lt;column index=&quot;10&quot; value=&quot;128&quot;/&gt;&lt;column index=&quot;11&quot; value=&quot;122&quot;/&gt;&lt;column index=&quot;12&quot; value=&quot;183&quot;/&gt;&lt;column index=&quot;13&quot; value=&quot;98&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;employees&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;82&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;71&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;71&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;124&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;75&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;129&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;129&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;178&quot;/&gt;&lt;column index=&quot;9&quot; value=&quot;67&quot;/&gt;&lt;column index=&quot;10&quot; value=&quot;44&quot;/&gt;&lt;column index=&quot;11&quot; value=&quot;60&quot;/&gt;&lt;column index=&quot;12&quot; value=&quot;80&quot;/&gt;&lt;column index=&quot;13&quot; value=&quot;115&quot;/&gt;&lt;column index=&quot;14&quot; value=&quot;115&quot;/&gt;&lt;column index=&quot;15&quot; value=&quot;168&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;invoices&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort&gt;&lt;column index=&quot;7&quot; mode=&quot;0&quot;/&gt;&lt;/sort&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;68&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;83&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;129&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;264&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;132&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;40&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;96&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;116&quot;/&gt;&lt;column index=&quot;9&quot; value=&quot;40&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;media_types&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;90&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;164&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;playlists&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort/&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;67&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;155&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;table schema=&quot;main&quot; name=&quot;tracks&quot; show_row_id=&quot;0&quot; encoding=&quot;&quot; plot_x_axis=&quot;&quot; unlock_view_pk=&quot;_rowid_&quot;&gt;&lt;sort&gt;&lt;column index=&quot;7&quot; mode=&quot;1&quot;/&gt;&lt;/sort&gt;&lt;column_widths&gt;&lt;column index=&quot;1&quot; value=&quot;56&quot;/&gt;&lt;column index=&quot;2&quot; value=&quot;300&quot;/&gt;&lt;column index=&quot;3&quot; value=&quot;61&quot;/&gt;&lt;column index=&quot;4&quot; value=&quot;90&quot;/&gt;&lt;column index=&quot;5&quot; value=&quot;59&quot;/&gt;&lt;column index=&quot;6&quot; value=&quot;300&quot;/&gt;&lt;column index=&quot;7&quot; value=&quot;84&quot;/&gt;&lt;column index=&quot;8&quot; value=&quot;63&quot;/&gt;&lt;column index=&quot;9&quot; value=&quot;65&quot;/&gt;&lt;/column_widths&gt;&lt;filter_values/&gt;&lt;conditional_formats/&gt;&lt;row_id_formats/&gt;&lt;display_formats/&gt;&lt;hidden_columns/&gt;&lt;plot_y_axes/&gt;&lt;global_filter/&gt;&lt;/table&gt;&lt;/browse_table_settings&gt;&lt;/tab_browse&gt;&lt;tab_sql&gt;&lt;sql name=&quot;SQL 1&quot;&gt;/*bir tablodan bir alan getirmek*/
+SELECT Title FROM albums;
+/* emploxe tablosoundan ad ve soyad alanlarini getir*/
+SELECT LastName, FirstName FROM employees;
+/*employes tablosundaki tüm elemanlari getir*/
+SELECT * FROM employees;
+/*tracks tablosundan name ve Composer verilerini cek*/
+SELECT name,Composer 
+FROM tracks;
+/*albums tablosundaki tüm verileri getir*/
+SELECT *
+FROM albums;
+/**/
+SELECT DISTINCT name,Composer
+FROM tracks;
 
-/*
-satışları yakın tarihten uzak tarihe sıralayınız
+SELECT DISTINCT City FROM customers;
+SELECT DISTINCT AlbumId,MediaTypeId from tracks;
+
+SELECT *
+FROM  tracks WHERE Composer = &amp;quot;Jimi Hendrix&amp;quot; LIMIT 3;
+
+SELECT *
+FROM invoices
+WHERE total&amp;gt;10
+ORDER BY total DESC;
+
+SELECT *
+FROM invoices
+WHERE NOT BillingCountry= &amp;quot;USA&amp;quot;
+ORDER BY total DESC;
+
+SELECT FirstName,LastName,Country
+FROM customers
+WHERE Country 
+in (&amp;quot;Belgium&amp;quot;, &amp;quot;Norway&amp;quot;, &amp;quot;Canada&amp;quot;, &amp;quot;USA&amp;quot;);
+
+SELECT FirstName,LastName,Country
+FROM customers
+WHERE Country =&amp;quot;Belgium&amp;quot; or Country = &amp;quot;Norway&amp;quot; or Country = &amp;quot;Canada&amp;quot; or Country = &amp;quot;USA&amp;quot;;
+
+ 
+SELECT name
+FROM Tracks
+WHERE Composer like &amp;quot;%D%&amp;quot;;
+
+SELECT count (name) as &amp;quot;sayi&amp;quot;
+FROM tracks;
+
+SELECT COUNT (Composer) as say_bakalim /*NULL degerler dahil degil*/
+FROM tracks;
+
+SELECT count (State) as &amp;quot;BOS yapmaaaa&amp;quot;
+FROM customers;
+
+SELECT count (*) as &amp;quot;BOS yapmaaaa&amp;quot;
+FROM customers;
+
+SELECT count ()&amp;quot;Toplam&amp;quot;,count (state) as &amp;quot;BOS yapmaaaa&amp;quot;
+FROM customers;
+
+SELECT count (*) as &amp;quot;BOS yapmaaaa&amp;quot;
+FROM invoices;
+
+SELECT count (DISTINCT Composer) as &amp;quot;BOS yapmadann&amp;quot;
+FROM tracks;
+
+SELECT name, max(Milliseconds) as &amp;quot;BOS yapmadann&amp;quot;
+FROM tracks;
+
+SELECT name, avg(Milliseconds) as &amp;quot;Parca ortalama uzunlu&amp;quot;
+FROM tracks;
+
+SELECT name, avg(Milliseconds)
+FROM tracks;
+
+SELECT *
+FROM tracks
+WHERE Milliseconds &amp;gt;(SELECT avg(Milliseconds)FROM tracks)
+LIMIT 5;
+
+SELECT Composer, count(name) as parca_sayisi
+FROM tracks
+GROUP BY Composer;
+
+
+
+
+
+&lt;/sql&gt;&lt;sql name=&quot;SQL 3&quot;&gt;/*bir tablodan bir alanı getirmek*/
+SELECT Title FROM albums;
+/*employee tablosundan adve syoad alanlarını getir */
+SELECT LastName,FirstName FROM employees;
+/*employees tablosundaki tüm verileri getir*/
+SELECT * from employees;
+/*tracks tablosundan name ve composer alanlarını getir*/
+SELECT name,Composer 
+FROM tracks;
+/*tracks tablosundan name ve composer alanlarını tekrar etmeyecek şekilde getir*/
+SELECT  DISTINCT Composer 
+FROM tracks;
+SELECT  DISTINCT Country,City 
+FROM customers;
+SELECT DISTINCT AlbumId,MediaTypeId FROM tracks;
+/*tracks albumunde composer ı jimi hendrix olanları getir*/
+SELECT * from tracks WHERE Composer ='Jimi Hendrix' limit 3;
+/*toplam tutarı 10 $ dan fazla olan faturalardan 4 tanesini getir*/
+SELECT * 
+FROM invoices 
+WHERE total&amp;gt;10;
+/*toplam tutarı 10$dan fazla olan faturların bilgilerini getir. Toplam miktara göre azalan sırada getir*/
+SELECT * FROM invoices WHERE total&amp;gt;10 ORDER by total DESC;
+/*Ülkesi ABD olmayan faturaların bilgilerini getir. total e göre artan düzende sırala*/
+SELECT * FROM invoices WHERE NOT BillingCountry='USA' ORDER by total;
+/*fatura tarihi 2009 ile 2011 arasında olaları getir  */
+SELECT * FROM invoices WHERE InvoiceDate BETWEEN '2009-01-01' AND '2011-12-31 00:00:00' ORDER by InvoiceDate DESC; 
+/*aynı soru between yerine and ile*/
+SELECT * FROM invoices WHERE InvoiceDate&amp;gt;='2009-01-01' AND InvoiceDate&amp;lt;='2011-12-31'; 
+/*Belçika, Norveç, Kanada ve ABD'den sipariş veren müşterilerin adını ve soyadını getirin*/
+SELECT Country,FirstName,LastName 
+FROM customers
+WHERE Country IN ('Belgium','Norway','Canada','USA') ORDER by Country; 
+SELECT Country,FirstName,LastName 
+FROM customers
+WHERE Country ='Belgium' or Country ='Norway'or Country ='Canada' or Country ='USA' ORDER by Country;
+
+/*aggrigation functions*/
+/* tracks tablosunda kaç kayıt var */
+SELECT count(*) from tracks;
+/*null değerler dahil*/
+SELECT count(Composer) as toplam_besteci_sayisi from tracks; 
+/*null değerler dahil DEGİL*/
+SELECT count(State) from customers where state NOTNULL;
+SELECT count(Company) from customers;
+SELECT count(*) as toplam_sayi,count(state) as toplam_state_sayisi from customers;
+ 
+/**/
+SELECT COUNT(*) FROM invoices;
+/*mağazada kaç farklı besteci var*/
+SELECT count(DISTINCT Composer) from tracks;
+/*maksimum süreye sahip parça*/
+SELECT max(Milliseconds)as en_uzun_parca from tracks;
+/*maksimum süreye sahip parça*/
+SELECT avg(Milliseconds) as parcaların_ort_suresi from tracks;
+/*faturaların toplam tutarı*/
+SELECT sum(total) as toplam_miktar, avg(total) as ortalama_fatura, min(total) as en_dusuk, max(total) as en_yuksek 
+from invoices;
+
+SELECT avg(Milliseconds) as parcaların_ort_suresi from tracks;
+select * from tracks WHERE Milliseconds&amp;gt;393599.212103911;
+/*asıl yol*/
+SELECT count(*) from tracks 
+WHERE Milliseconds&amp;gt;(SELECT avg(Milliseconds) as parcaların_ort_suresi from tracks);
+/*her bestecinin toplam parca sayısı. name ve composer sütünlarını getir*/
+SELECT Composer,count(*) as par_sayisi from tracks GROUP by Composer order by par_sayisi DESC; &lt;/sql&gt;&lt;current_tab id=&quot;0&quot;/&gt;&lt;/tab_sql&gt;&lt;/sqlb_project&gt;
+</sql><sql name="SQL 3">/*satışları yakın tarihten uzak tarihe sıralayınız*/
+select *
+from Sales
+where salesDate
+ORDER BY salesDate ASC;
 
-satıcı ismine göre yapılan  satışları sıralayınız
-belirtilen bir satıcının satışlarını listeleyiniz
-toplam personel sayısını bulunuz
-kaç farklı marka satılmaktadır
-her bir markadan kaç adet satılmıştır
-araçların toplam alış fiyatı nedir
-araçların toplam satış fiyatı nedir
-her bir satış için ne kadar kar / zarar edildiğini bulunuz
+/*satıcı ismine göre yapılan  satışları sıralayınız*/
+select *
+from Sales
+where salesDate
+ORDER BY name ASC;
 
-toplamda ne kadar kar /zarar edildiğini bulunuz
-her bir yıl kaç adet satış gerçekleşmiştir
-adet olarak en fazla satış yapan personel kimdir
-*/</sql><sql name="SQL 4">select count(salesDate) as &quot;1=2020 2=2021 3=2022 yillari satis sayilari&quot;
-from Sales
+/*belirtilen bir satıcının satışlarını listeleyiniz*/
+select name, carBrand
+from Sales
+where name = &quot;Ahmet&quot;;
+
+/*toplam personel sayısını bulunuz*/
+select count(DISTINCT name) as Toplam_personel_sayisi
+from Sales;
+
+/*kaç farklı marka satılmaktadır*/
+select count(DISTINCT carBrand) as Toplam_Marka_sayisi
+from Sales;
+
+/*her bir markadan kaç adet satılmıştır*/
+select carBrand,count(carBrand) 
+from Sales
+where salesDate
+GROUP BY carBrand
+ORDER BY name ASC;
+
+/*araçların toplam alış fiyatı nedir*/
+select sum(purchasePrice) as Araclarin_Toplam_Alis_Fiyati
+from Sales;
+
+/*araçların toplam satış fiyatı nedir*/
+select sum(salesPrice) as Araclarin_Toplam_sais_Fiyati
+from Sales;
+/*her bir satış için ne kadar kar / zarar edildiğini bulunuz*/
+select transactionID, (salesPrice-purchasePrice)
+from Sales
+where salesDate
+ORDER BY transactionID;
+
+/*toplamda ne kadar kar /zarar edildiğini bulunuz*/
+select sum(salesPrice-purchasePrice) as Toplam_kar_zarar
+from Sales
+where salesDate
+ORDER BY transactionID;
+
+
+/*her bir yıl kaç adet satış gerçekleşmiştir*/
+select count(salesDate) as &quot;1=2020 2=2021 3=2022 yillari satis sayilari&quot;
+from Sales
 where salesDate &gt;=  '2020' 
 GROUP BY salesDate like &quot;2020%&quot;, salesDate like &quot;2021%&quot;
+ORDER BY salesDate ASC;
+
+/*adet olarak en fazla satış yapan personel kimdir*/
+SELECT name, count(name) as adet_satis
+FROM sales
+GROUP BY name
+ORDER BY adet_satis DESC LIMIT 1;
+
+
+
+
+
+
+
+
+
+</sql><sql name="SQL 4">select count(salesDate) as &quot;1=2020 2=2021 3=2022 yillari satis sayilari&quot;
+from Sales
+where salesDate &gt;=  '2020' 
+GROUP BY salesDate like &quot;2020%&quot;, salesDate like &quot;2021%&quot;
 ORDER BY salesDate ASC;
 
 
@@ -185,4 +238,4 @@ ORDER BY salesDate ASC;
 select count() as a2020
 from Sales
 where salesDate like  '2021%' 
-*/</sql><current_tab id="2"/></tab_sql></sqlb_project>
+*/</sql><current_tab id="1"/></tab_sql></sqlb_project>
