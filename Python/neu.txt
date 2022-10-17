@@ -1,0 +1,3 @@
+printnow txt is one long string containing all the characters
+printnow txt is one long string containing all the characters
+printnow txt is one long string containing all the characters
