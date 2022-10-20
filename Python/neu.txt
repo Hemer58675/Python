@@ -1,3 +1,10 @@
 printnow txt is one long string containing all the characters
 printnow txt is one long string containing all the characters
 printnow txt is one long string containing all the characters
+{
+    "livePreview.defaultPreviewPath": "c:\\Users\\lyild\\Desktop\\Phython\\first.html",
+    "editor.language.brackets": [
+    
+    ],
+    "python.analysis.typeCheckingMode": "basic"
+}
