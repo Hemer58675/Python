@@ -50,11 +50,13 @@ JOIN employee on class.classID = employee.classID
 WHERE class.classID= 2;
 
 /*ustalar ile çıraklar arasındaki satış toplamı farkını*/
-SELECT max(salestotal)-min(salestotal) as Fark
+SELECT max(salestotal)-min(salestotal) as Fark
+
 FROM (SELECT className,sum(sales.salesPrice) as salestotal
 		FROM employee
 		JOIN class on class.classID = employee.classID
-		JOIN sales on sales.empId = employee.empId
+		JOIN sales on sales.empId = employee.empId
+
 		GROUP BY employee.classID
 );
 
@@ -62,11 +64,17 @@ FROM (SELECT className,sum(sales.salesPrice) as salestotal
 /*en fazla satış yapan personel ile en az satış yapan personel bilgilerini getiren SWL ifadelerini bulunuz*/
 SELECT empId, count(empId) as sayi
 FROM sales
-GROUP BY sales.empId;</sql><sql name="SQL 4">CREATE INDEX empNameindex on employee(empName);
-SELECT empName from employee;
-
-CREATE VIEW satarlar as SELECT empId,salesPrice from sales;
-
-SELECT max(salesPrice) FROM satarlar;
+GROUP BY sales.empId;</sql><sql name="SQL 4">CREATE INDEX empNameindex on employee(empName);
+
+SELECT empName from employee;
+
+
+
+CREATE VIEW satarlar as SELECT empId,salesPrice from sales;
+
+
+
+SELECT max(salesPrice) FROM satarlar;
+
 INSERT INTO satarlar VALUES (1,19000);</sql><sql name="Ansicht satarlar bearbeiten">
 CREATE VIEW satarlar as SELECT empId,salesPrice from sales</sql><current_tab id="3"/></tab_sql></sqlb_project>
