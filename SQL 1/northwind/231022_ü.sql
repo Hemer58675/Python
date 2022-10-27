@@ -25,3 +25,19 @@ so that the names are combined */
 select firstname || '  ' || lastname as "Name"
 -- this is concatenating the first and last name
     from "alanparadise/nw"."employees";
+
+select productid, productname, quantityperunit, unitprice, unitsinstock
+    from "alanparadise/nw"."products";
+
+select concat(firstname, ' ', lastname), hiredate, date_part('year', hiredate)
+    from "alanparadise/nw"."employees";
+
+select productname, unitprice, unitsinstock,
+        (unitprice*unitsinstock) AS "Total Value"
+    from "alanparadise/nw"."products";
+
+select concat(firstname, ' ', lastname), hiredate, to_char(hiredate, 'month')
+    from "alanparadise/nw"."employees";
+
+select firstname || ' ' || lastname, hiredate, to_char(hiredate, 'month')
+    from "alanparadise/nw"."employees";
